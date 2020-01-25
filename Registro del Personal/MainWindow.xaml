@@ -1,0 +1,27 @@
+﻿<Window x:Class="Registro_del_Personal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Registro_del_Personal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="325" Width="350">
+    <Grid>
+        <Label Content="ID" HorizontalAlignment="Left" Height="24" Margin="28,31,0,0" VerticalAlignment="Top" Width="137"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Height="24" Margin="28,82,0,0" VerticalAlignment="Top" Width="137"/>
+        <Label Content="Telefno" HorizontalAlignment="Left" Height="24" Margin="28,111,0,0" VerticalAlignment="Top" Width="137"/>
+        <Label Content="Cedula" HorizontalAlignment="Left" Height="24" Margin="28,140,0,0" VerticalAlignment="Top" Width="137"/>
+        <Label Content="Direccion" HorizontalAlignment="Left" Height="24" Margin="28,169,0,0" VerticalAlignment="Top" Width="137"/>
+        <Label Content="Fecha Nacimiento" HorizontalAlignment="Left" Height="24" Margin="28,198,0,0" VerticalAlignment="Top" Width="137"/>
+        <TextBox x:Name="NombreText" HorizontalAlignment="Left" Margin="170,82,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="24"/>
+        <TextBox x:Name="TelefonoText" HorizontalAlignment="Left" Margin="170,111,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="24"/>
+        <TextBox x:Name="CedulaText" HorizontalAlignment="Left" Margin="170,140,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="24"/>
+        <TextBox x:Name="DireccionText" HorizontalAlignment="Left" Margin="170,169,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="24"/>
+        <TextBox x:Name="FechaText" HorizontalAlignment="Left" Margin="170,198,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="24"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Margin="238,31,0,0" VerticalAlignment="Top" Height="24" Width="70"/>
+        <TextBox x:Name="IDText" HorizontalAlignment="Left" Margin="170,31,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Height="24"/>
+        <Button Content="Guardar" HorizontalAlignment="Center" Margin="0,248,0,0" VerticalAlignment="Top" Height="51" Width="90" Click="GuardarBoton"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="250,248,0,0" VerticalAlignment="Top" Height="51" Width="90" Click="EliminarBoton"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top" Height="51" Width="90" Click="NuevoBoton"/>
+    </Grid>
+</Window>
